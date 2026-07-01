@@ -1,0 +1,11 @@
+prefix=/home/isha/Complete-Data-Science-Machine-Learning-DL-NLP/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: XCB Screensaver
+Description: XCB Screensaver Extension
+Version: 1.17.0
+Requires.private: xcb
+Libs: -L${libdir} -lxcb-screensaver
+Cflags: -I${includedir}

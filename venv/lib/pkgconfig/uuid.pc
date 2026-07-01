@@ -1,0 +1,11 @@
+prefix=/home/isha/Complete-Data-Science-Machine-Learning-DL-NLP/venv
+exec_prefix=/home/isha/Complete-Data-Science-Machine-Learning-DL-NLP/venv
+libdir=/home/isha/Complete-Data-Science-Machine-Learning-DL-NLP/venv/lib
+includedir=/home/isha/Complete-Data-Science-Machine-Learning-DL-NLP/venv/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid
